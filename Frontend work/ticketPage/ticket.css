@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Open+Sans:wght@300&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.imgs1{
+    width: 90%;
+    height: 200px;
+    margin: 50px 80px 30px 80px;
+    display: flex;
+    align-items: center;
+}
+.imgs1 img{
+    width: 18%;
+    height: 170px;
+}
+.sayohat1{
+    font-size: 50px;
+    color: #c4b451;
+    padding-left: 25px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+    width: 33%;
+    height: 80%;
+    margin-left: 300px;
+}
+.logo img{
+    width: 23%;
+    height: 65%;
+    border-radius: 50px;
+
+}
+.sana{
+    width: 25%;
+    height: 15%;
+    margin-left:80px ;
+ 
+}
+.vaqt{
+    font-size: 35px;
+}
+.sana1{
+    margin-right: 55px;
+}
+
+.oy{
+    margin-right: 5px;
+}
+form{
+    width: 35%;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 60px;
+
+}
+.lorem1{
+    width: 95%;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+}
+.lorem2{
+    width: 48%;
+    line-height: 31px;
+    margin-left: 35px;
+
+}
+hr{
+    width: 100%;
+    padding-left: 100px;
+}
+
+@media(max-width: 700px){
+
+    header{
+        margin: 0;
+    }
+
+}
